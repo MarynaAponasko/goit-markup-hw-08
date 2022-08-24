@@ -1234,6 +1234,11 @@ ul {
     padding-bottom: 77px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .project-caption-big {
+    padding-bottom: 53px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .project-item {
     width: 370px;

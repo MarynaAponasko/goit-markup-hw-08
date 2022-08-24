@@ -1182,7 +1182,7 @@ ul {
   transform: translate(0, 100%);
   transition: transform var(--transmition-time) var(--transition-function);
 }
-.project-link:hover .project-text, .project-link:focus .project-text {
+.project-link:hover .project-text, .project-link:active .project-text, .project-link:focus .project-text {
   transform: translate(0, 0);
 }
 
@@ -1194,7 +1194,7 @@ ul {
     margin-bottom: 50px;
   }
   .project-item {
-    width: 450px;
+    width: 100%;
     margin-bottom: 50px;
   }
   .project-text {
@@ -1204,8 +1204,7 @@ ul {
     padding-bottom: 77px;
   }
   .project-photo {
-    width: 450px;
-    height: 294px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {

@@ -915,8 +915,8 @@ ul {
   background-color: var(--white-background-colol);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  width: 450px;
-  height: 609px;
+  width: calc(100vw - 30px);
+  margin: auto;
 }
 
 .icon-close-modal {
@@ -931,15 +931,14 @@ ul {
   right: 8px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 480px) and (max-width: 1199px) {
   .modal {
-    width: 100%;
+    width: 450px;
   }
 }
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
-    height: 581px;
   }
 }
 .form-modal {

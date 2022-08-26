@@ -96,14 +96,19 @@
 @media screen and (max-width: 767px) {
     .buttons{
         flex-wrap: wrap;
-        row-gap: 8px;
-        column-gap: 15px;
-        margin-bottom: 50px;
+        row-gap: 15px;
+        column-gap: 8px;
+        margin-bottom: 40px;
     }
     .project-item {
         width: 100%;
-        margin-bottom: 50px
     }
+
+    .project-item:not(:last-child) {
+        margin-bottom: 30px
+    }
+
+
     .project-text{
         padding-top: 77px;
         padding-left: 24px;
@@ -144,14 +149,17 @@
         padding-right: 24px;
         padding-bottom: 77px;
     }
-    
+    .project-link{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .portfolio-container{
+        flex-grow: 1;
+    }   
 }
  
-@media screen and (min-width:768px) and (max-width:1199px) {
-    .project-caption-big {
-            padding-bottom: 53px;
-        }
-}
+
 
 @media screen and (min-width: 1200px){
     .project-item {

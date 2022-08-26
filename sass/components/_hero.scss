@@ -42,8 +42,6 @@
     .hero {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
             url(../images/bg-hero/bg-hero-mobile.jpg);
-        max-width: 480px;
-        height: 400px;
         padding-top: 118px;
         padding-bottom: 118px;
     }
@@ -64,8 +62,6 @@ screen and (min-resolution: 192dpi) and (max-width:767px), screen and (min-resol
 @media screen and (min-width:768px){
 .hero {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg-hero/bg-hero-tablet.jpg);
-        max-width: 768px;
-        height: 400px;
         padding-top: 118px;
         padding-bottom: 118px;
 
@@ -89,7 +85,6 @@ screen and (min-resolution: 192dppx) and (min-width:768px) {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
             url(../images/bg-hero/bg-hero-desktop.jpg);
         max-width: 1600px;
-        height: 600px;
         padding-top: 200px;
         padding-bottom: 200px;
     }

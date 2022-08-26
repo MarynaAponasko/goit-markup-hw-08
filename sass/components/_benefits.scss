@@ -28,8 +28,7 @@
         width: 450px;
     }
     .benefits__title {
-        display: flex;
-        justify-content: center;
+        text-align: center;
     }
     .benefits__item:not(:last-child){
         margin-bottom: 30px;

@@ -32,12 +32,14 @@
 
 }
 .project-caption {
+    flex-grow: 1;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 24px;
     padding-left: 24px;
     border: 1px solid #eeeeee;
     border-top: none;
+   
 }
 
 .project-title {
